@@ -1,0 +1,34 @@
+{
+    "cfg": {
+      "show_code": 1,
+      "allow_children": 1,
+      "show_icon": 1,
+      "i18n": "en"
+    },
+    "id_parent": ["appui"],
+    "text": "Mailings",
+    "code": "mailing",
+    "id_alias": ["plugin", "list", "templates", "option", "appui"],
+    "icon": "nf nf-oct-mail",
+    "plugin": true,
+    "items": [
+      {
+        "cfg": {
+          "show_code": 1,
+          "show_value": 1,
+          "sortable": 1
+        },
+        "text": "eMails de test",
+        "code": "test",
+        "icon": "nf nf-fa-at"
+      },
+      {
+        "cfg": {
+          "show_value": 1
+        },
+        "text": "Exp\u00e9diteur",
+        "code": "sender"
+      }
+    ]
+  }
+  
